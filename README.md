@@ -78,4 +78,4 @@ If average score is 1, then pass. Else, non-pass.
 ## Author
 SeoHyun Kwon / @kwonddeoyeyo
 
-## Team members
+## Team Members
