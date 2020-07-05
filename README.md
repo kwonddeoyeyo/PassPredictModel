@@ -74,3 +74,8 @@ If average score is 1, then pass. Else, non-pass.
             print("Non-pass")
         elif result == 1:
             print("Pass!")
+
+## Author
+SeoHyun Kwon / @kwonddeoyeyo
+
+## Team members
