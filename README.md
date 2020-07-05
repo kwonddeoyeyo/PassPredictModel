@@ -61,11 +61,12 @@ Put in values to test
    
 
 ## Result
-If average score is 1, then pass
+Print out the prediction result.
 
     predictions = model.predict(testData)
     print('Pass Prediction:')
 
+If average score is 1, then pass. Else, non-pass.
 
     results = predictions.collect()
     for result in results:
