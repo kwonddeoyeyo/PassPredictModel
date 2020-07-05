@@ -1,12 +1,13 @@
 # PassPredictModel
-Model that predicts whether a student will pass the exams
+The data illustrates scores from three exams and a variety of personal, social, and economic factors that ahve interaction effects upon them.
+This model predicts whether a student will pass the exam (> 70) under specific circumstances.
 
 ## Requirements
 - Python 3.7
 - Pyspark
 - Numpy
 
-## Usage
+## How To
 1 Download **StudentsPerformance.csv**
 
 2 Functions that convert CSV input data into numerics
@@ -74,8 +75,13 @@ If average score is 1, then pass. Else, non-pass.
             print("Non-pass")
         elif result == 1:
             print("Pass!")
+            
+## Acknowledgement
+
+http://roycekimmons.com/tools/generated_data/exams
 
 ## Author
 SeoHyun Kwon / @kwonddeoyeyo
 
-## Team Members
+## Team
+
