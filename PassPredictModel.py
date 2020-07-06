@@ -6,7 +6,7 @@ from numpy import array
 # Boilerplate Spark stuff:
 conf = SparkConf().setMaster("local").setAppName("SparkDecisionTree")
 sc = SparkContext(conf = conf)
-## 
+## 수정
 # Some functions that convert our CSV input data into numerical
 # features for each job candidate
 def binary(YN):
